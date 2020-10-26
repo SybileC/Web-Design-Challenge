@@ -13,14 +13,16 @@ h1 {
         text-align:left;
   }
 
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    text-align: right;
-    top: 0;
+  li {
+    float: left;
   }
-
+  
+  a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+  }
+  
   h2 {
         color: lightblue;
         text-align: center;
