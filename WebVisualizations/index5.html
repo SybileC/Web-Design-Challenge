@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Visualization Max Temp</title>
+    <title>Comparison page</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
@@ -41,30 +41,25 @@
     </nav>
     <div class="container">
         <div class="row">
-          <div class="col-xl-8">
+          <div class="col-xl-12">
             <div class="card">
                 <div class="card-body">
-            <p class="card-title text-info text-xl-left font-weight-bold">Max Temperature</p>  
+            <p class="card-title text-info text-xl-left font-weight-bold">Comparison: Latitude vs. X</p>  
             <hr>
-            <img class="rounded mx-auto d-block" width="250" src="Resources/City_Latitude_vs_Max_Temperature.PNG" alt="City Latitude vs. Max Temperature"><br>
-                <p class="card-text text-secondary">As expected, the weather significantly warmer as one approaches the equator (0 Deg Latitude). More interestingly, however, is the fact that the southern hemisphere tends to be warmer this time of year than the northern hemisphere. This may be due to the tilt of the earth at the time of the year this data was gathered.</p>
-          </div>
-         
-      </div>
-          </div> <!-- column 1-->
-
-          <div class="col-xl-4">
-            <div class="card">
-                <div class="card-body">
-                    <p class="card-title">Visualizations</p>
-              <hr>
+            <p>Click any plot to get an in-depth analysis</p>
               <div class="row">
-            <img class="card-text col-md-6" width="200" src="Resources/City_Latitude_vs_Max_Temperature.PNG" alt="City Latitude vs. Max Temperature">
-            <img class="card-text col-md-6" width="200" src="Resources/City_Latitude_vs_Humidity.PNG" alt="City Latitude vs. Humidity">
-            </div>
+            <figure class="figure">
+            <figcaption class="card-text col-lg-6 figure-caption">A caption for the above image.</figcaption>
+            <img class="card-text col-lg-6" width="300" src="Resources/City_Latitude_vs_Max_Temperature.PNG" alt="City Latitude vs. Max Temperature">
+        </figure>
+        <figure class="figure">
+            <figcaption class="card-text col-lg-6 figure-caption">A caption for the above image.</figcaption>
+            <img class="card-text col-lg-6" width="300" src="Resources/City_Latitude_vs_Humidity.PNG" alt="City Latitude vs. Humidity">
+        </figure>
+        </div>
             <div class="row">
-            <img class="card-text col-md-6" width="200" src="Resources/City_Latitude_vs_Cloudiness.PNG" alt="City Latitude vs. Cloudiness">
-            <img class="card-text col-md-6" width="200" src="Resources/City_Latitude_vs_Wind_Speed.PNG" alt="City Latitude vs. Wind Speed">
+            <img class="card-text col-lg-6" width="200" src="Resources/City_Latitude_vs_Cloudiness.PNG" alt="City Latitude vs. Cloudiness">
+            <img class="card-text col-lg-6" width="200" src="Resources/City_Latitude_vs_Wind_Speed.PNG" alt="City Latitude vs. Wind Speed">
             </div> 
           </div>
         </div>

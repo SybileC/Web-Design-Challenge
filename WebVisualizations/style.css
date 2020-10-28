@@ -1,39 +1,13 @@
   
-#backgroundcolor1 {
-    background-color: lightblue;
+.navbar {
+  @navbar-height: 20px;
 }
-.font1 {
-    font-family: Arial, Helvetica, sans-serif;
+
+.container {
+  padding: 50px;
 }
-h1 {
-        color: white;
-        font-size: large;
-        margin-top: 20 px;
-        top:0;
-        text-align:left;
-  }
 
-  li {
-    float: left;
-  }
-  
-  a {
-    display: block;
-    padding: 8px;
-    background-color: #dddddd;
-  }
-  
-  h2 {
-        color: lightblue;
-        text-align: center;
-        font-size: x-large;
-
-  }
-  hr {
-      color: grey;
-  }
-
-  h3 {
-        font-size: medium;
-        color: darkgray;
-  }
+.card {
+  padding-bottom: 50px;
+  margin-bottom: 20px;
+}
