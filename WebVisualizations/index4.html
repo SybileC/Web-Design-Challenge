@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Visualization Cloudiness</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body class="bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <a class="navbar-brand bg-info text-white" href="index.html">Latitude</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-nav mr-auto"></div>
+                 <div class="form-inline my-2 my-lg-0">   
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Plots
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="index1.html">Max Temperature</a>
+                        <a class="dropdown-item" href="index2.html">Humidity</a>
+                        <a class="dropdown-item" href="index3.html">Cloudiness</a>
+                        <a class="dropdown-item" href="index4.html">Wind Speed</a>
+                      </div>
+                    </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="index5.html">Comparison</a>
+                </li>
+                <li class="nav-item active">
+                <a class="nav-link" href="index6.html">Data</a>
+                </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+          <div class="col-xl-8">
+            <div class="card">
+                <div class="card-body">
+            <p class="card-title text-info text-xl-left font-weight-bold">Wind Speed</p>  
+            <hr>
+            <img class="rounded mx-auto d-block" width="250" src="Resources/City_Latitude_vs_Wind_Speed.PNG" alt="City Latitude vs. Wind Speed"><br>
+                <p class="card-text text-secondary">As expected, the weather significantly warmer as one approaches the equator (0 Deg Latitude). More interestingly, however, is the fact that the southern hemisphere tends to be warmer this time of year than the northern hemisphere. This may be due to the tilt of the earth at the time of the year this data was gathered.</p>
+          </div>
+         
+      </div>
+          </div>
+
+          <div class="col-xl-4">
+            <div class="card">
+                <div class="card-body">
+                    <p class="card-title text-info text-xl-left font-weight-bold">Visualizations</p>
+              <hr>
+              <div class="row">
+            <img class="card-text col-md-6" width="200" src="Resources/City_Latitude_vs_Max_Temperature.PNG" alt="City Latitude vs. Max Temperature">
+            <img class="card-text col-md-6" width="200" src="Resources/City_Latitude_vs_Humidity.PNG" alt="City Latitude vs. Humidity">
+            </div>
+            <div class="row">
+            <img class="card-text col-md-6" width="200" src="Resources/City_Latitude_vs_Cloudiness.PNG" alt="City Latitude vs. Cloudiness">
+            <img class="card-text col-md-6" width="200" src="Resources/City_Latitude_vs_Wind_Speed.PNG" alt="City Latitude vs. Wind Speed">
+            </div> 
+          </div>
+        </div>
+      </div>
+        </div>
+    </div>
+
+</body>
