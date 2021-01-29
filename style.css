@@ -8,6 +8,7 @@
 }
  
  }
+ /* If screen size is 600px or less, change background color to white */
  @media (max-width: 600px) {
    body {
      background-color: white;

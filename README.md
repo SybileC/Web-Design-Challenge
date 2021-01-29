@@ -1,6 +1,6 @@
 # Web-Design-Challenge
 
-Created a visualization dashboard website using visualizations I've created for the Weather Map study.
+Created a visualization dashboard website using visualizations I've created for the Weather Map study. App was deployed to GitHub pages (https://sybilec.github.io/weather-map-website/)
 
 The website consists of 7 pages:
 
